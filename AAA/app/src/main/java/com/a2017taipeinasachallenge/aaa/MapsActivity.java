@@ -42,8 +42,8 @@ import java.util.List;
 import java.util.Random;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
-    private final String SEND_POINTS_URL = "http://59.124.23.150:5566/FightFires/map/postAreaData";
-    private final String GET_POINTS_URL = "http://59.124.23.150:5566/FightFires/map/getAreaData";
+    private final String SEND_POINTS_URL = “ip/FightFires/map/postAreaData";
+    private final String GET_POINTS_URL = “ip/FightFires/map/getAreaData";
     final int MY_PERMISSION_ACCESS_COURSE_LOCATION = 0x1;
     private GoogleMap mMap;
     private Double longitude = 0.0;
